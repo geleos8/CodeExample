@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(74, 45, 18);
+font-size:28pt;</string>
+  </property>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>520</y>
+     <width>480</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>50</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: white;
+background-color: rgb(191, 101, 17);
+border-radius: 20px;
+border: 2px solid #ffffff;
+font: 50pt &quot;Times New Roman&quot;;
+}
+
+QPushButton:pressed {
+color: rgb(191, 101, 17);
+background-color: white;
+border: 4px solid rgb(191, 101, 17);
+font: 50pt &quot;Times New Roman&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>0</y>
+     <width>1121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>50</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Times New Roman&quot;;
+color: white;
+background-color: rgb(191, 101, 17);
+border-radius: 45px;
+border: 4px solid #ffffff;</string>
+   </property>
+   <property name="text">
+    <string>Результаты тестирования</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="Results">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>130</y>
+     <width>1241</width>
+     <height>351</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="behindButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>520</y>
+     <width>480</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>50</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: white;
+background-color: rgb(191, 101, 17);
+border-radius: 20px;
+border: 2px solid #ffffff;
+font: 50pt &quot;Times New Roman&quot;;
+}
+
+QPushButton:pressed {
+color: rgb(191, 101, 17);
+background-color: white;
+border: 4px solid rgb(191, 101, 17);
+font: 50pt &quot;Times New Roman&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

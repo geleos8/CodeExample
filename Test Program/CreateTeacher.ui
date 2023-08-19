@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(74, 45, 18);
+font-size:28pt;</string>
+  </property>
+  <widget class="QPushButton" name="startButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>510</y>
+     <width>480</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>50</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: white;
+background-color: rgb(191, 101, 17);
+border-radius: 20px;
+border: 2px solid #ffffff;
+font: 50pt &quot;Times New Roman&quot;;
+}
+
+QPushButton:pressed {
+color: rgb(191, 101, 17);
+background-color: white;
+border: 4px solid rgb(191, 101, 17);
+font: 50pt &quot;Times New Roman&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Создать</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>50</y>
+     <width>1121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>50</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 50pt &quot;Times New Roman&quot;;
+color: white;
+background-color: rgb(191, 101, 17);
+border-radius: 45px;
+border: 4px solid #ffffff;</string>
+   </property>
+   <property name="text">
+    <string>Введите логин и пароль для учителя</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>371</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>leftstart.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>939</x>
+     <y>200</y>
+     <width>371</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>rightstart.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>426</x>
+     <y>262</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>Логин :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>418</x>
+     <y>361</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>Пароль :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>350</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="login">
+   <property name="geometry">
+    <rect>
+     <x>562</x>
+     <y>259</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="error">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>440</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Times New Roman&quot;;
+color: red;</string>
+   </property>
+   <property name="text">
+    <string>Логин уже используется</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
